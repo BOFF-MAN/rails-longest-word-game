@@ -1,0 +1,61 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.letter-holder {
+  display: flex;
+  p {
+    display: flex;
+    margin: 8px;
+    padding: 8px;
+    width: 32px;
+    height: 32px;
+    background-color: #30AADD;
+    box-shadow: 2px 2px 4px 1px black;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+h1 {
+  margin: 16px 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.base-container {
+  margin: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.result-holder {
+  margin: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  .scoreboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #30AADD;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    color: white;
+    margin: 24px;
+    #number {
+      font-weight: bolder;
+      font-size: 56px;
+    }
+    p {
+      margin: 0px;
+    }
+  }
+  .link {
+    margin: 32px;
+    text-decoration: none;
+    color: #30AADD;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,10 @@
+<h1>Result:</h1>
+
+<div class="result-holder">
+  <p><%= @answer %></p>
+  <div class="scoreboard">
+    <p>Score:</p>
+    <p id="number"><%= @score %></p>
+  </div>
+  <%= link_to "Play again", new_path, class: "link" %>
+</div>
